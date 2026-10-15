@@ -1,0 +1,10 @@
+[project]
+name = "emoji-emotion-classifier"
+version = "1.0.0"
+description = "Does a CNN trained on one emoji learn what a smile is? Happy/sad classification with honest evaluation."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]

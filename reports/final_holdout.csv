@@ -1,0 +1,17 @@
+image_id,design,codepoint,name,label,p_happy,correct
+emojione-2-2/grinning-face,EmojiOne 2.2,1f600,Grinning face,1,0.48514,False
+emojione-2-2/grinning-face-with-big-eyes,EmojiOne 2.2,1f603,Grinning face with big eyes,1,0.93779,True
+emojione-2-2/grinning-face-with-smiling-eyes,EmojiOne 2.2,1f604,Grinning face with smiling eyes,1,0.92622,True
+emojione-2-2/beaming-face-with-smiling-eyes,EmojiOne 2.2,1f601,Beaming face with smiling eyes,1,0.94433,True
+emojione-2-2/grinning-squinting-face,EmojiOne 2.2,1f606,Grinning squinting face,1,0.53299,True
+emojione-2-2/slightly-smiling-face,EmojiOne 2.2,1f642,Slightly smiling face,1,0.98796,True
+emojione-2-2/smiling-face-with-smiling-eyes,EmojiOne 2.2,1f60a,Smiling face with smiling eyes,1,0.97423,True
+emojione-2-2/smiling-face,EmojiOne 2.2,263a,Smiling face,1,0.99714,True
+emojione-2-2/slightly-frowning-face,EmojiOne 2.2,1f641,Slightly frowning face,0,0.11274,True
+emojione-2-2/frowning-face,EmojiOne 2.2,2639,Frowning face,0,0.37165,True
+emojione-2-2/disappointed-face,EmojiOne 2.2,1f61e,Disappointed face,0,0.04758,True
+emojione-2-2/pensive-face,EmojiOne 2.2,1f614,Pensive face,0,0.35347,True
+emojione-2-2/worried-face,EmojiOne 2.2,1f61f,Worried face,0,0.02079,True
+emojione-2-2/crying-face,EmojiOne 2.2,1f622,Crying face,0,0.37688,True
+emojione-2-2/loudly-crying-face,EmojiOne 2.2,1f62d,Loudly crying face,0,0.127,True
+emojione-2-2/sad-but-relieved-face,EmojiOne 2.2,1f625,Sad but relieved face,0,0.07315,True

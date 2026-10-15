@@ -1,0 +1,136 @@
+model,protocol,fold,seed,n_train,n_test,epochs,train_accuracy,test_accuracy,test_log_loss,seconds
+baseline_cnn,random_split,75/25,0,60,20,13,1.0,1.0,0.021626027674210492,13.2
+baseline_cnn,leave_clips_out,test=happy1+sad1,0,40,40,7,1.0,0.8,0.36848488913383337,5.9
+baseline_cnn,leave_clips_out,test=happy1+sad2,0,40,40,10,1.0,0.825,0.48105425839312377,7.7
+baseline_cnn,leave_clips_out,test=happy2+sad1,0,40,40,8,1.0,0.5,1.162528029095847,7.3
+baseline_cnn,leave_clips_out,test=happy2+sad2,0,40,40,13,1.0,1.0,0.07203184394165874,9.7
+baseline_cnn,other_designs,all frames,0,80,80,10,1.0,0.5375,1.005339374835603,13.2
+compact_cnn,random_split,75/25,0,60,20,100,0.9666666666666667,0.95,0.1353843817494635,39.4
+compact_cnn,leave_clips_out,test=happy1+sad1,0,40,40,100,1.0,0.85,0.49963608960970307,27.1
+compact_cnn,leave_clips_out,test=happy1+sad2,0,40,40,100,0.95,0.75,1.9318528114585276,27.3
+compact_cnn,leave_clips_out,test=happy2+sad1,0,40,40,100,1.0,0.5,2.0001658023256823,27.1
+compact_cnn,leave_clips_out,test=happy2+sad2,0,40,40,100,0.925,1.0,0.05462617778684944,27.0
+compact_cnn,other_designs,all frames,0,80,80,100,0.9625,0.575,3.30054212964536,52.2
+mobilenet_v2,random_split,75/25,0,60,20,20,1.0,1.0,0.04706442673632409,27.4
+mobilenet_v2,leave_clips_out,test=happy1+sad1,0,40,40,20,1.0,0.5,0.5986145992588717,24.0
+mobilenet_v2,leave_clips_out,test=happy1+sad2,0,40,40,20,1.0,0.9,0.26405434517073445,23.9
+mobilenet_v2,leave_clips_out,test=happy2+sad1,0,40,40,20,1.0,0.5,0.6913772857573349,21.0
+mobilenet_v2,leave_clips_out,test=happy2+sad2,0,40,40,20,1.0,1.0,0.05924479101668112,19.9
+mobilenet_v2,other_designs,all frames,0,80,80,20,1.0,0.7375,0.5450704225164372,30.7
+baseline_cnn,random_split,75/25,1,60,20,10,0.9833333333333333,1.0,0.030852408998180182,10.8
+baseline_cnn,leave_clips_out,test=happy1+sad1,1,40,40,6,1.0,0.875,0.3108851696131751,5.5
+baseline_cnn,leave_clips_out,test=happy1+sad2,1,40,40,9,1.0,0.85,0.3966988050378859,6.2
+baseline_cnn,leave_clips_out,test=happy2+sad1,1,40,40,6,1.0,0.5,0.5207601892761886,4.0
+baseline_cnn,leave_clips_out,test=happy2+sad2,1,40,40,10,1.0,1.0,0.03386059352196753,6.2
+baseline_cnn,other_designs,all frames,1,80,80,7,1.0,0.55,0.7543058000039309,9.2
+compact_cnn,random_split,75/25,1,60,20,100,0.95,0.95,0.07887068736890797,32.9
+compact_cnn,leave_clips_out,test=happy1+sad1,1,40,40,100,1.0,0.8,0.39373272845041357,25.9
+compact_cnn,leave_clips_out,test=happy1+sad2,1,40,40,100,1.0,0.8,1.405706821801165,23.4
+compact_cnn,leave_clips_out,test=happy2+sad1,1,40,40,100,1.0,0.5,2.336964381118378,23.8
+compact_cnn,leave_clips_out,test=happy2+sad2,1,40,40,100,0.8,1.0,0.16728386970935388,23.8
+compact_cnn,other_designs,all frames,1,80,80,100,1.0,0.6875,2.8759683920483874,48.5
+mobilenet_v2,random_split,75/25,1,60,20,20,1.0,1.0,0.07021361390361562,23.5
+mobilenet_v2,leave_clips_out,test=happy1+sad1,1,40,40,20,1.0,0.95,0.24083830332383513,19.3
+mobilenet_v2,leave_clips_out,test=happy1+sad2,1,40,40,20,1.0,0.875,0.42020491724833847,20.7
+mobilenet_v2,leave_clips_out,test=happy2+sad1,1,40,40,20,1.0,0.825,0.38986225741682573,21.1
+mobilenet_v2,leave_clips_out,test=happy2+sad2,1,40,40,20,1.0,1.0,0.09119016688782722,21.7
+mobilenet_v2,other_designs,all frames,1,80,80,20,1.0,0.675,0.5333078149473295,32.7
+baseline_cnn,random_split,75/25,2,60,20,13,1.0,1.0,0.018876405029732268,12.9
+baseline_cnn,leave_clips_out,test=happy1+sad1,2,40,40,4,0.85,0.5,1.3015653981012292,4.1
+baseline_cnn,leave_clips_out,test=happy1+sad2,2,40,40,3,0.5,0.5,0.5876344922930002,3.5
+baseline_cnn,leave_clips_out,test=happy2+sad1,2,40,40,5,1.0,0.5,1.5070776468433906,4.6
+baseline_cnn,leave_clips_out,test=happy2+sad2,2,40,40,11,1.0,1.0,0.03336716656340286,8.1
+baseline_cnn,other_designs,all frames,2,80,80,9,0.975,0.625,0.8950366130564362,12.2
+compact_cnn,random_split,75/25,2,60,20,100,0.9166666666666666,0.95,0.14450150985503568,37.8
+compact_cnn,leave_clips_out,test=happy1+sad1,2,40,40,100,1.0,0.85,0.28809747672139563,26.7
+compact_cnn,leave_clips_out,test=happy1+sad2,2,40,40,100,0.975,0.775,2.036983435438022,27.9
+compact_cnn,leave_clips_out,test=happy2+sad1,2,40,40,100,1.0,0.5,3.494097529386022,28.3
+compact_cnn,leave_clips_out,test=happy2+sad2,2,40,40,100,0.825,1.0,0.06477747955359518,29.1
+compact_cnn,other_designs,all frames,2,80,80,100,0.9375,0.4625,3.6358394306242596,53.0
+mobilenet_v2,random_split,75/25,2,60,20,20,1.0,1.0,0.04154794362839311,25.7
+mobilenet_v2,leave_clips_out,test=happy1+sad1,2,40,40,20,1.0,0.8,0.35388642962789163,25.1
+mobilenet_v2,leave_clips_out,test=happy1+sad2,2,40,40,20,1.0,0.725,0.4578657242236659,22.2
+mobilenet_v2,leave_clips_out,test=happy2+sad1,2,40,40,20,1.0,0.7,0.5466946486383677,28.5
+mobilenet_v2,leave_clips_out,test=happy2+sad2,2,40,40,20,1.0,0.9,0.17132983463816345,23.3
+mobilenet_v2,other_designs,all frames,2,80,80,20,1.0,0.7625,0.4574614295270294,78.3
+baseline_cnn,random_split,75/25,3,60,20,10,1.0,1.0,0.0320382171717938,57.3
+baseline_cnn,leave_clips_out,test=happy1+sad1,3,40,40,5,1.0,0.875,0.3370165411382914,5.6
+baseline_cnn,leave_clips_out,test=happy1+sad2,3,40,40,7,1.0,0.8,0.530739730130881,36.3
+baseline_cnn,leave_clips_out,test=happy2+sad1,3,40,40,7,1.0,0.5,0.6950773032614961,14.4
+baseline_cnn,leave_clips_out,test=happy2+sad2,3,40,40,15,1.0,1.0,0.015460593200987204,18.1
+baseline_cnn,other_designs,all frames,3,80,80,8,1.0,0.5625,0.846140228828881,14.6
+compact_cnn,random_split,75/25,3,60,20,100,0.9333333333333333,0.9,0.21987129280837509,54.9
+compact_cnn,leave_clips_out,test=happy1+sad1,3,40,40,100,1.0,0.825,0.42470853817649185,79.5
+compact_cnn,leave_clips_out,test=happy1+sad2,3,40,40,100,1.0,0.775,1.494699711725191,153.8
+compact_cnn,leave_clips_out,test=happy2+sad1,3,40,40,100,1.0,0.5,2.075056528330606,102.2
+compact_cnn,leave_clips_out,test=happy2+sad2,3,40,40,100,0.85,1.0,0.09684791206382215,31.4
+compact_cnn,other_designs,all frames,3,80,80,100,1.0,0.7125,3.188942220431407,52.4
+mobilenet_v2,random_split,75/25,3,60,20,20,0.9833333333333333,0.9,0.09896212548483163,52.5
+mobilenet_v2,leave_clips_out,test=happy1+sad1,3,40,40,20,1.0,0.9,0.22267781919799745,28.8
+mobilenet_v2,leave_clips_out,test=happy1+sad2,3,40,40,20,1.0,0.875,0.54690893702209,78.3
+mobilenet_v2,leave_clips_out,test=happy2+sad1,3,40,40,20,1.0,0.85,0.2548205491155386,53.0
+mobilenet_v2,leave_clips_out,test=happy2+sad2,3,40,40,20,0.9,1.0,0.11689490515273064,19.4
+mobilenet_v2,other_designs,all frames,3,80,80,20,1.0,0.7375,0.45747492207447066,26.9
+baseline_cnn,random_split,75/25,4,60,20,10,1.0,1.0,0.026654410728951916,29.9
+baseline_cnn,leave_clips_out,test=happy1+sad1,4,40,40,8,1.0,0.9,0.318116949670366,5.0
+baseline_cnn,leave_clips_out,test=happy1+sad2,4,40,40,6,1.0,0.8,0.5464268083684146,9.7
+baseline_cnn,leave_clips_out,test=happy2+sad1,4,40,40,6,1.0,0.5,1.7598132343860926,27.8
+baseline_cnn,leave_clips_out,test=happy2+sad2,4,40,40,12,1.0,1.0,0.03941072671441361,9.1
+baseline_cnn,other_designs,all frames,4,80,80,7,1.0,0.675,0.6737400026991963,50.7
+compact_cnn,random_split,75/25,4,60,20,100,1.0,1.0,0.061813269578124164,64.1
+compact_cnn,leave_clips_out,test=happy1+sad1,4,40,40,100,1.0,0.725,0.45104836556711236,25.8
+compact_cnn,leave_clips_out,test=happy1+sad2,4,40,40,100,1.0,0.8,1.2921001103250451,26.5
+compact_cnn,leave_clips_out,test=happy2+sad1,4,40,40,100,1.0,0.5,2.1491867544591514,25.6
+compact_cnn,leave_clips_out,test=happy2+sad2,4,40,40,100,1.0,1.0,0.015255058358889073,25.5
+compact_cnn,other_designs,all frames,4,80,80,100,1.0,0.7375,2.859204327585837,49.1
+mobilenet_v2,random_split,75/25,4,60,20,20,1.0,1.0,0.037532378680771215,22.4
+mobilenet_v2,leave_clips_out,test=happy1+sad1,4,40,40,20,1.0,1.0,0.1895352948573418,16.3
+mobilenet_v2,leave_clips_out,test=happy1+sad2,4,40,40,20,1.0,0.775,0.3805185750941746,18.4
+mobilenet_v2,leave_clips_out,test=happy2+sad1,4,40,40,20,1.0,0.875,0.26004256117157637,18.2
+mobilenet_v2,leave_clips_out,test=happy2+sad2,4,40,40,20,1.0,1.0,0.12164935814216733,18.2
+mobilenet_v2,other_designs,all frames,4,80,80,20,1.0,0.675,0.5586385592934675,27.3
+baseline_cnn,leave_design_out,Fluent 3D,0,144,16,10,1.0,0.875,0.19699815448302616,18.1
+baseline_cnn,leave_design_out,Noto 3D,0,144,16,11,1.0,1.0,0.007360016172281547,19.6
+baseline_cnn,leave_design_out,Noto,0,144,16,12,0.9930555555555556,0.9375,0.09164209164152481,21.7
+baseline_cnn,leave_design_out,Twemoji,0,144,16,10,1.0,0.875,0.1729045050579998,18.4
+baseline_cnn,leave_design_out,OpenMoji,0,144,16,11,1.0,0.8125,0.9124857109016951,20.0
+compact_cnn,leave_design_out,Fluent 3D,0,144,16,100,0.8680555555555556,0.6875,0.8690478486532855,84.0
+compact_cnn,leave_design_out,Noto 3D,0,144,16,100,0.8125,0.6875,0.49503313134498494,84.3
+compact_cnn,leave_design_out,Noto,0,144,16,100,0.9027777777777778,0.8125,0.4041077682451286,84.7
+compact_cnn,leave_design_out,Twemoji,0,144,16,100,0.8125,0.9375,0.34055160870775847,85.0
+compact_cnn,leave_design_out,OpenMoji,0,144,16,100,0.8611111111111112,0.5625,2.945025465538497,84.4
+mobilenet_v2,leave_design_out,Fluent 3D,0,144,16,20,1.0,0.8125,0.3184161978715565,38.8
+mobilenet_v2,leave_design_out,Noto 3D,0,144,16,20,1.0,0.9375,0.09393926295160782,40.3
+mobilenet_v2,leave_design_out,Noto,0,144,16,20,1.0,0.9375,0.10392598729231395,40.9
+mobilenet_v2,leave_design_out,Twemoji,0,144,16,20,1.0,0.9375,0.17886710009770468,38.7
+mobilenet_v2,leave_design_out,OpenMoji,0,144,16,20,1.0,0.75,0.3639818703813944,38.5
+baseline_cnn,leave_design_out,Fluent 3D,1,144,16,9,1.0,0.5625,1.025798650800425,16.9
+baseline_cnn,leave_design_out,Noto 3D,1,144,16,10,1.0,1.0,0.008490865181329355,18.5
+baseline_cnn,leave_design_out,Noto,1,144,16,10,1.0,1.0,0.003994449428716962,18.5
+baseline_cnn,leave_design_out,Twemoji,1,144,16,10,1.0,0.9375,0.07053498115628543,18.7
+baseline_cnn,leave_design_out,OpenMoji,1,144,16,8,0.9930555555555556,0.8125,0.45602614432137045,15.0
+compact_cnn,leave_design_out,Fluent 3D,1,144,16,100,0.9097222222222222,0.6875,4.286155355118787,84.3
+compact_cnn,leave_design_out,Noto 3D,1,144,16,100,0.875,0.875,0.2998393082525608,84.4
+compact_cnn,leave_design_out,Noto,1,144,16,100,0.8819444444444444,0.8125,0.38102413351561015,85.0
+compact_cnn,leave_design_out,Twemoji,1,144,16,100,0.8611111111111112,0.9375,0.3644974166527417,85.5
+compact_cnn,leave_design_out,OpenMoji,1,144,16,100,0.8819444444444444,0.8125,0.5785277985937682,86.4
+mobilenet_v2,leave_design_out,Fluent 3D,1,144,16,20,1.0,0.75,0.4765626300650183,41.2
+mobilenet_v2,leave_design_out,Noto 3D,1,144,16,20,1.0,1.0,0.09830187933403067,43.7
+mobilenet_v2,leave_design_out,Noto,1,144,16,20,1.0,1.0,0.12066942101228051,40.8
+mobilenet_v2,leave_design_out,Twemoji,1,144,16,20,1.0,0.9375,0.19598103043972515,40.8
+mobilenet_v2,leave_design_out,OpenMoji,1,144,16,20,1.0,0.5625,0.5980969793017721,40.5
+baseline_cnn,leave_design_out,Fluent 3D,2,144,16,10,1.0,0.875,0.3169838508929388,18.5
+baseline_cnn,leave_design_out,Noto 3D,2,144,16,8,0.8958333333333334,1.0,0.05968894596183816,15.3
+baseline_cnn,leave_design_out,Noto,2,144,16,13,0.9930555555555556,1.0,0.006154258684716751,23.7
+baseline_cnn,leave_design_out,Twemoji,2,144,16,11,1.0,1.0,0.024087162013984198,20.4
+baseline_cnn,leave_design_out,OpenMoji,2,144,16,6,0.8541666666666666,0.5,1.2722189827834427,11.9
+compact_cnn,leave_design_out,Fluent 3D,2,144,16,100,0.9444444444444444,0.5625,6.974793676287682,87.9
+compact_cnn,leave_design_out,Noto 3D,2,144,16,100,0.9097222222222222,0.75,0.2837269512564573,87.2
+compact_cnn,leave_design_out,Noto,2,144,16,100,0.9236111111111112,0.8125,0.4931069776639587,91.2
+compact_cnn,leave_design_out,Twemoji,2,144,16,100,0.9305555555555556,0.9375,0.21965484775137423,88.5
+compact_cnn,leave_design_out,OpenMoji,2,144,16,100,0.9305555555555556,0.5625,2.1476758382050365,87.0
+mobilenet_v2,leave_design_out,Fluent 3D,2,144,16,20,0.9930555555555556,0.875,0.323170114250388,40.3
+mobilenet_v2,leave_design_out,Noto 3D,2,144,16,20,0.9930555555555556,0.9375,0.10261552571319044,40.3
+mobilenet_v2,leave_design_out,Noto,2,144,16,20,0.9930555555555556,1.0,0.10500253802456427,41.5
+mobilenet_v2,leave_design_out,Twemoji,2,144,16,20,0.9930555555555556,0.875,0.2486235937103629,40.9
+mobilenet_v2,leave_design_out,OpenMoji,2,144,16,20,1.0,0.6875,0.6489826407414512,39.6
